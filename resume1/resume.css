@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #6af2f2;
+  color: #020202;
+}
+
+.container {
+  max-width: 650px;
+  padding: 40px;
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} 
+
+h1, h2, h3 {
+  color: #0c56a1;
+  font-size: 1.5rem;
+}
+.name{
+  color: black;
+  font-size: large;
+  text-align: center;
+
+
+}
+a {
+  color: #2980b9;
+  font-size: 1rem;
+  
+}
+
+a:hover {
+  color: red;
+}
+
+.contact {
+  margin: 0.5rem 0 2rem 0;
+  font-size: 0.95rem;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.item {
+  margin-bottom: 1.5rem;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+.skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  background-color: #ecf0f1;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 0.95rem;
+  }
+
+  .skills ul {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .contact {
+    font-size: 0.85rem;
+    text-align: center;
+  }
+
+  .skills li {
+    text-align: center;
+    width: 100%;
+  }
+}
+
