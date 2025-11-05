@@ -43,6 +43,9 @@ h2 {
 a:hover {
   color:red;
 }
+ul{
+  list-style-position: inside;
+}
 @media (min-width: 768px){
     .container {
       width: 95%;
